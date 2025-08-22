@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moonfall Studio — Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <nav>
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <div class="logo"></div>
+        <span>Moonfall Studio</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="games.html">Games</a>
+        <a href="careers.html">Careers</a>
+        <a href="about.html">About</a>
+      </div>
+      <select class="lang" id="langSwitcher" onchange="switchLang(this.value)">
+        <option value="en" selected>EN</option>
+        <option value="fr">FR</option>
+      </select>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1 id="homeTitle">Elegant, system‑driven worlds</h1>
+      <p class="subtitle" id="homeSubtitle">Moonfall Studio creates games where geometry, physics and emergence weave magic.</p>
+    </div>
+  </header>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Moonfall Studio</div>
+  </footer>
+</body>
+</html>

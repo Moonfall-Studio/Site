@@ -1,0 +1,10 @@
+body{margin:0;background:#0c1621;color:#e2d2bf;font-family:'Source Sans 3',sans-serif;}
+nav{background:#1a2a36;padding:12px 0}
+.nav-inner{display:flex;justify-content:space-between;align-items:center;}
+.nav-links a{color:#a8b0b7;margin:0 8px;text-decoration:none}
+.nav-links a.active{color:#e2d2bf}
+.lang{background:none;color:#e2d2bf;border:1px solid #444;border-radius:6px;padding:4px 8px}
+.section{padding:60px 0}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:#1a2a36;padding:16px;border-radius:12px}
+.footer{text-align:center;padding:20px 0;color:#a8b0b7}
