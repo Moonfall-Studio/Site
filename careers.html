@@ -3,23 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moonfall Studio — Careers</title>
+  <title>Moonfall Studio - Careers</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js" defer></script>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
-  <nav> ... </nav>
-
-  <main class="section">
-    <div class="container">
-      <h2 id="careersTitle">Careers</h2>
-      <p class="section-lead" id="careersLead">Join a small, dedicated team with high standards and kindness.</p>
-      <div class="jobs" id="jobsList"></div>
+<nav>
+  <div class="nav-inner">
+    <a class="brand " href="index.html">Moonfall Studio</a>
+    <div class="nav-links">
+      <a href="index.html" class="">Home</a>
+      <a href="games.html" class="">Games</a>
+      <a href="careers.html" class="active">Careers</a>
+      <a href="about.html" class="">About</a>
     </div>
-  </main>
-
-  <footer>
-    <div class="container">© <span id="year"></span> Moonfall Studio</div>
-  </footer>
+    <select class="lang" id="langSwitcher">
+      <option value="en" selected>EN</option>
+      <option value="fr">FR</option>
+    </select>
+  </div>
+</nav>
+<section>
+<h1>Careers</h1>
+<p>Placeholder content for Careers page.</p>
+</section>
+<footer>
+<p>© <span id="year"></span> Moonfall Studio</p>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -3,23 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moonfall Studio — Games</title>
+  <title>Moonfall Studio - Games</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js" defer></script>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
-  <nav> ... (même nav que index.html) ... </nav>
-
-  <main class="section">
-    <div class="container">
-      <h2 id="gamesTitle">Games</h2>
-      <p class="section-lead" id="gamesLead">A selection of projects under development and released.</p>
-      <div class="grid" id="gamesGrid"></div>
+<nav>
+  <div class="nav-inner">
+    <a class="brand " href="index.html">Moonfall Studio</a>
+    <div class="nav-links">
+      <a href="index.html" class="">Home</a>
+      <a href="games.html" class="active">Games</a>
+      <a href="careers.html" class="">Careers</a>
+      <a href="about.html" class="">About</a>
     </div>
-  </main>
-
-  <footer>
-    <div class="container">© <span id="year"></span> Moonfall Studio</div>
-  </footer>
+    <select class="lang" id="langSwitcher">
+      <option value="en" selected>EN</option>
+      <option value="fr">FR</option>
+    </select>
+  </div>
+</nav>
+<section>
+<h1>Games</h1>
+<p>Placeholder content for Games page.</p>
+</section>
+<footer>
+<p>© <span id="year"></span> Moonfall Studio</p>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

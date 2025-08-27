@@ -3,39 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moonfall Studio — Home</title>
+  <title>Moonfall Studio - Index</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js" defer></script>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
-  <nav>
-    <div class="container nav-inner">
-      <a class="brand" href="index.html">
-        <div class="logo"></div>
-        <span>Moonfall Studio</span>
-      </a>
-      <div class="nav-links">
-        <a href="index.html" class="active">Home</a>
-        <a href="games.html">Games</a>
-        <a href="careers.html">Careers</a>
-        <a href="about.html">About</a>
-      </div>
-      <select class="lang" id="langSwitcher" onchange="switchLang(this.value)">
-        <option value="en" selected>EN</option>
-        <option value="fr">FR</option>
-      </select>
+<nav>
+  <div class="nav-inner">
+    <a class="brand active" href="index.html">Moonfall Studio</a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="games.html" class="">Games</a>
+      <a href="careers.html" class="">Careers</a>
+      <a href="about.html" class="">About</a>
     </div>
-  </nav>
-
-  <header class="hero">
-    <div class="container">
-      <h1 id="homeTitle">Elegant, system‑driven worlds</h1>
-      <p class="subtitle" id="homeSubtitle">Moonfall Studio creates games where geometry, physics and emergence weave magic.</p>
-    </div>
-  </header>
-
-  <footer>
-    <div class="container">© <span id="year"></span> Moonfall Studio</div>
-  </footer>
+    <select class="lang" id="langSwitcher">
+      <option value="en" selected>EN</option>
+      <option value="fr">FR</option>
+    </select>
+  </div>
+</nav>
+<section>
+<h1>Index</h1>
+<p>Placeholder content for Index page.</p>
+</section>
+<footer>
+<p>© <span id="year"></span> Moonfall Studio</p>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
